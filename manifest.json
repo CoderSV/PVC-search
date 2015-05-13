@@ -1,15 +1,15 @@
 {
 	"manifest_version": 2,
-	"name": "Reddit Searcher",
-	"description": "This extension allows the user to search reddit from the toolbar.",
+	"name": "P2A search",
+	"description": "This extension allows the user to search P2A info for a domain from the toolbar.",
 	"version": "1.0",
 	"permissions": [
 
-		"http://reddit.com/*",
-		"https://reddit.com/*",
-		"http://*.reddit.com/*",
+		"http://google.com/*",
+		"https://google.com/*",
+		"http://*.google.com/*",
 		"tabs",
-		"https://*.reddit.com/*"],
+		"https://*.google.com/*"],
  
  "browser_action": {
 	"default_icon":"icon.png","default_popup":"popup.html"
