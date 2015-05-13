@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Reddit Searcher",
+	"description": "This extension allows the user to search reddit from the toolbar.",
+	"version": "1.0",
+	"permissions": [
+
+		"http://reddit.com/*",
+		"https://reddit.com/*",
+		"http://*.reddit.com/*",
+		"tabs",
+		"https://*.reddit.com/*"],
+ 
+ "browser_action": {
+	"default_icon":"icon.png","default_popup":"popup.html"
+ }
+}
