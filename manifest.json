@@ -3,6 +3,9 @@
 	"name": "P2A search",
 	"description": "This extension allows the user to search P2A info for a domain from the toolbar.",
 	"version": "1.0",
+	"icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
 	"permissions": [
 
 		"http://google.com/*",
